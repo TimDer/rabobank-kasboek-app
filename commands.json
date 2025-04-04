@@ -1,0 +1,10 @@
+[
+    {
+        "Name": "ASP.NET",
+        "CLI": "dotnet watch --project ./src/rabobank-kasboek-app/rabobankKasboekApp.csproj"
+    },
+    {
+        "Name": "Angular",
+        "CLI": "npm run start --prefix ./src/rabobankKasboekAppView"
+    }
+]
