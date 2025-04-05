@@ -8,4 +8,6 @@ if [ ! -f ./AppRunner ]; then
     rm -rf ./AppRunnerSource
 fi
 
+docker compose -f ./docker/dev/docker-compose.yml up -d
+
 ./AppRunner -json ./commands.json

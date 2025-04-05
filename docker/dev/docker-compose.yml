@@ -1,0 +1,10 @@
+services:
+    rabobank_kasboek_app_database:
+        image: mysql:9.2.0
+        container_name: rabobankKasboekAppDatabase
+        restart: unless-stopped
+        ports: 
+            - 3306:3306
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: "rabobankKasboekApp"
